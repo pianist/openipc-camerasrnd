@@ -1,0 +1,26 @@
+
+[AO] Version: [Hi3516CV500_MPP_V2.0.1.1 B020 Release], Build Time: [Mar  6 2019, 18:30:11]
+
+-----AO DEV ATTR----------------------------------------------------------------
+AoDev WorkMod   SampR  BitWid  ChnCnt  ClkSel SoundMod  PoiNum  ExFlag  FrmNum
+    0 i2s_mas    8kHZ   16bit       2       0     mono     160       0      30
+
+-----AO DEV STATUS0-------------------------------------------------------------
+AoDev     IntCnt    fifoCnt    buffInt FrmTime MaxFrmTime TranLen IsrTime
+    0     149816          0          0   20002      21603     640      10
+
+-----AO DEV STATUS1-------------------------------------------------------------
+AoDev MaxIsrTime      CBPhy  CBSize    ROffSet    WOffSet
+    0         80   9933e000    1920          0        280
+
+-----AO DEV EXTEND STATUS-------------------------------------------------------
+AoDev enTrack   bMute  Volume
+    0       0       N       0
+
+-----AO CHN STATUS--------------------------------------------------------------
+AoDev   AoChn   State    Read   Write      BufEmp  u32Data0  u32Data1  bResmp  PoiNum InSampR  OutSampR
+    0       0  enable      14      14      148512         1         1       N       0  (null)    (null)
+
+-----AO CHN VQE STATUS0---------------------------------------------------------
+AoDev AoChn   State bVqe workmod    RATE  PoiNum bAnr bAgc  bEq bHpf  WrFile
+    0     0  enable    N    comm  (null)       0    N    N    N    N       N

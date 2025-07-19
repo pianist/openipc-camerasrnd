@@ -1,0 +1,40 @@
+
+[RGN] Version: [Hi3516CV500_MPP_V2.0.1.1 B020 Release], Build Time[Mar  6 2019, 18:30:11]
+
+
+-----REGION STATUS OF OVERLAY------------------------------------------------------------
+ Hdl     Type     Used    PiFmt        W        H  BgColor              Phy             Virt   Stride
+   0        0        N        8      608       32     ffff         9a3f7000         cdce0000     1280
+   1        0        N        8      288       32     ffff         9a40b000         cdd00000      640
+   3        0        N        8      342       20     ffff         9a415000         cdd10000      768
+   4        0        N        8      170       20     ffff         9a41d000         cdd1c000      384
+   6        0        N        8      608       32     ffff         9a421000         cdd40000     1280
+   7        0        N        8      288       32     ffff         9a435000         cdd60000      640
+
+-----REGION STATUS OF OVERLAY BUF USED---------------------------------------------------
+ Hdl     Type  CnvsNum     buf0     buf1     buf2     buf3     buf4     buf5
+   0        0        2        0        0        0        0        0        0
+   1        0        2        0        0        0        0        0        0
+   3        0        2        0        0        0        0        0        0
+   4        0        2        0        0        0        0        0        0
+   6        0        2        0        0        0        0        0        0
+   7        0        2        0        0        0        0        0        0
+
+-----REGION CALL VGS STATUS OF OVERLAY---------------------------------------------------
+ Hdl     CallCnt      JobSuc     JobFail     TaskSuc    TaskFail      EndSuc     EndFail
+   0           0           0           0           0           0           0           0
+   1           0           0           0           0           0           0           0
+   3           0           0           0           0           0           0           0
+   4           0           0           0           0           0           0           0
+   6           0           0           0           0           0           0           0
+   7           0           0           0           0           0           0           0
+
+-----REGION CHN STATUS OF OVERLAY--------------------------------------------------------
+ Hdl  Type   Mod   Dev   Chn   bBatch   AttachDest   bSh     X     Y  AphF  AphB  Layer  bAQp    QP  bQpDis   ColorLUT0   ColorLUT1
+   0     0  VENC     0     0        N         MAIN     Y     0     0   127     0      0     N     0       N           0           0
+   1     0  VENC     0     0        N         MAIN     Y     0   680   127     0      1     N     0       N           0           0
+   3     0  VENC     0     1        N         MAIN     Y     0     0   127     0      0     N     0       N           0           0
+   4     0  VENC     0     1        N         MAIN     Y     0   548   127     0      1     N     0       N           0           0
+   6     0  VENC     0     2        N         MAIN     Y     0     0   127     0      0     N     0       N           0           0
+   7     0  VENC     0     2        N         MAIN     Y     0   680   127     0      1     N     0       N           0           0
+

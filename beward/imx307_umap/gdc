@@ -1,0 +1,54 @@
+
+[GDC] Version: [Hi3516CV500_MPP_V2.0.1.1 B020 Release], Build Time[Mar  6 2019, 18:30:11]
+
+
+-----MODULE PARAM-----------------------------
+    max_job_num   max_task_num   max_node_num
+             32             64             64
+
+-----RECENT JOB INFO------------------------------------------------------------------
+   SeqNo ModName  JobHdl TaskNum   State      InSize     OutSize    CostTime    HwTime
+       0      vi       0       1  Proced     2073600     2073600        7829      7455
+       1      vi      28       1  Proced     2073600     2073600        7773      7455
+       2      vi      24       1  Proced     2073600     2073600        7766      7457
+       3      vi      20       1  Proced     2073600     2073600        7826      7456
+       4      vi      16       1  Proced     2073600     2073600        7768      7456
+       5      vi      12       1  Proced     2073600     2073600        7768      7456
+       6      vi       8       1  Proced     2073600     2073600        7832      7456
+       7      vi       4       1  Proced     2073600     2073600        7772      7456
+
+-----MAX WASTE TIME JOB INFO----------------------------------------------------------
+   SeqNo ModName  JobHdl TaskNum   State      InSize     OutSize    CostTime    HwTime
+       8      vi      28       1  Proced     2073600     2073600        7895      7466
+
+-----GDC JOB STATUS--------------------------------------------------------------
+   Success      Fail    Cancel  AllJobNum    FreeNum   BeginNum    BusyNum ProcingNum
+     74865         0         0        32        32         0         0         0
+
+-----GDC TASK STATUS-----------------------------------------------------------
+   Success      Fail    Cancel AllTaskNum    FreeNum    BusyNum
+     74865         0         0        64        64         0
+
+-----GDC NODE STATUS-----------------------------------------------------------
+   AllNodeNum   BusyNum   MinFree  MaxInJob  SubmitFail   IntFail
+           64         0        63         1           0         0
+
+
+-----GDC INT STATUS------------------------------------------------------------
+    IntNum     IntTm HalProcTm
+     74865         0          0
+
+-----GDC CALL VGS COVER STATUS--------------------------------------------------
+    BeginSuc   BeginFail     TaskSuc    TaskFail      EndSuc     EndFail       CbCnt
+           0           0           0           0           0           0           0
+
+
+-----GDC CALL VGS SCALE STATUS--------------------------------------------------
+    BeginSuc   BeginFail     TaskSuc    TaskFail      EndSuc     EndFail       CbCnt
+           0           0           0           0           0           0           0
+
+
+-----GDC CALL CORRECTION STATUS-------------------------------------------------
+    BeginSuc   BeginFail     TaskSuc    TaskFail      EndSuc     EndFail       CbCnt
+           0           0           0           0           0           0           0
+

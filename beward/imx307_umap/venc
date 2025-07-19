@@ -1,0 +1,96 @@
+
+[VENC] Version: [Hi3516CV500_MPP_V2.0.1.1 B020 Release], Build Time[Mar  6 2019, 18:30:12]
+
+-----MODULE PARAM--------------------------------------------------------------
+    VencBufferCache   FrameBufRecycle     VencMaxChnNum
+                  0                 0                16
+
+
+-----VENC CHN ATTR 1-----------------------------------------------------------
+      ID   Width  Height  Type  ByFrame    Sequence   LeftBytes     LeftFrm  CurPacks   GopMode  Prio
+       0    1280     720    96        Y       74852           0           0         1    SmartP     0
+       1     960     576    96        Y         255           0           0         0    SmartP     0
+       2    1280     720    26        Y          67           0           0         0   NormalP     0
+       3    1280     720    26        Y           0           0           0         0   NormalP     0
+
+-----VENC CHN ATTR 2-----------------------------------------------------------
+      ID   VeStr   SrcFr   TarFr     Timeref  PixFmt PicAddr      WakeUpFrmCnt
+       0       Y      -1      -1      149738  YVU420  0x9727ef80           1
+       1       Y      -1      -1           1  YVU420  0x96fcf400           1
+       2       Y      -1      -1           1  YVU420  0x96926b80           1
+       3       N      -1      -1           1      NA  0x       0           1
+
+-----VENC JPEGE ATTR -----------------------------------------------------------
+      ID   RcvMode    MpfCnt      Mpf0Width     Mpf0Height      Mpf1Width     Mpf1Height
+       2    Single         0              8              3             -1              1
+       3    Single         0           1080              0             26              0
+
+
+-----VENC CHN RECEIVE STAT-----------------------------------------------------
+      ID       Start     StartEx    RecvLeft     EncLeft    JpegEncodeMode
+       0           1           0           0  4294892444                NA
+       1           0           0           0           0                NA
+       2           0           0           0           0               ALL
+       3           0           0           0           0               ALL
+
+-----VENC VPSS QUERY-----------------------------------------------------------
+      ID       Query     QueryOk     QueryFR       Invld        Full      VbFail   QueryFail     InfoErr        Stop
+       0           0           0           0           0           0           0           0           0           0
+       1           0           0           0           0           0           0           0           0           0
+       2           0           0           0           0           0           0           0           0           0
+       3           0           0           0           0           0           0           0           0           0
+
+-----VENC SEND1----------------------------------------------------------------
+      ID     VpssSnd     VInfErr     OthrSnd     OInfErr        Send        Stop        Full     CropErr    DrectSnd     SizeErr
+       0       74853           0           0           0       74853           0           0           0           0           0
+       1       74547           0           0           0           0       74547           0           0           0           0
+       2       42316           0           0           0           0       42316           0           0           0           0
+       3           0           0           0           0           0           0           0           0           0           0
+
+-----VENC SEND2----------------------------------------------------------------
+      ID     SendVgs     StartOk   StartFail       IntOk     IntFail      SrcAdd      SrcSub     DestAdd     DestSub
+       0       74853       74853           0       74853           0       74853       74853       74853           0
+       1           0           0           0           0           0           0           0           0           0
+       2           0           0           0           0           0           0           0           0           0
+       3           0           0           0           0           0           0           0           0           0
+
+-----VENC PIC QUEUE STATE------------------------------------------------------
+      ID    Free    Busy     Vgs  BFrame
+       0       5       1       0       0
+       1       6       0       0       0
+       2       6       0       0       0
+       3       6       0       0       0
+
+-----VENC DCF/MPF QUEUE STATE------------------------------------------------------
+      ID   ThumbFree   ThumbBusy    Mpf0Free    Mpf0Busy    Mpf1Free    Mpf1Busy
+       0           0           0           6           0           6           0
+       1           0           0           6           0           6           0
+       2           0           0           6           0           6           0
+       3           0           0           6           0           6           0
+
+-----VENC CHNL INFO------------------------------------------------------------
+      ID         Inq       InqOk       Start     StartOk      Config     VencInt  ChaResLost    OverLoad    RingSkip      RcSkip
+       0      415130       74853       74853       74853       74853       74852           0           0           0           0 
+       1      487563           0           0           0           0           0           0           0           0           0 
+       2      168817           0           0           0           0           0           0           0           0           0 
+       3      292830           0           0           0           0           0           0           0           0           0 
+
+-----VENC CROP INFO------------------------------------------------------------
+      ID  CropEn  StartX  StartY   Width  Height
+       0       N       0       0       0       0
+       1       N       0       0       0       0
+       2       N       0       0       0       0
+       3       N       0       0       0       0
+
+
+-----ROI INFO------------------------------------------------------------------
+     ID      Type     Index    bRoiEn    bAbsQp    Qp     Width    Height    StartX    StartY 
+
+
+-----VENC STREAM STATE---------------------------------------------------------
+      ID     FreeCnt     BusyCnt     UserCnt     UserGet     UserRls    GetTimes    Interval   FrameRate
+       0          76           0           0       75752       75752       74852       39820          24
+       1         200           0           0         261         261         255       39514           0
+       2           1           0           0         134         134          67     1000791           0
+       3           0           0           0           0           0           0           0           0
+

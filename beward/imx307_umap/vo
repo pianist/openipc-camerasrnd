@@ -1,0 +1,55 @@
+
+[VO] Version: [Hi3516CV500_MPP_V2.0.1.1 B020 Release], Build Time[Mar  6 2019, 18:30:11]
+
+-----DEVICE CONFIG-------------------------------------------------------------------
+   DevId   DevEn       Mux1       Mux2       Mux3      IntfSync        BkClr  DevFrt
+
+-----DEVICE CLOCK INFO-------------------------------------------------------------------
+   DevId   DevEn  ClkSource   FbDiv    Frac     RefDiv   PostDiv1  PostDiv2   LCDMCLK  VoDevDiv  VoPreDiv ClkReverse
+
+-----MODULE PARAM-----------------------------
+ transparentTransmit    ExitDev  WbcBgBlackEn DevClkExtEn  SaveBufMode
+                   N          Y             N           N            N
+
+-----VIDEO LAYER STATUS 1----------------------------------------------------------------------------------------
+ LayerId VideoEn ClustMode  PixFmt    ImgW    ImgH   DispX   DispY   DispW   DispH DispFrt DoubFrm   DstDyRg Decompress
+
+-----VIDEO LAYER STATUS 2(continue)------------------------------------------------------------------------------
+ LayerId VideoEn  Toleration  Priority EnChNum  Matrix    Luma    Cont     Hue    Satu
+
+-----VIDEO LAYER STATUS 3(continue)------------------------------------------------------------------------------
+ LayerId   DevId  SetBeg  SetEnd PartitionMode bSDVgsBypass   u32BufLen
+
+-----VIDEO LAYER STATUS 4(continue)------------------------------------------------------------------------------
+ LayerId AspectRatioMode     X     Y     Width     Height     BgColor
+
+-----VIDEO LAYER STATUS 5(continue)------------------------------------------------------------------------------
+ LayerId   BoundaryWidth          Color0          Color1
+
+-----VIDEO LAYER STATUS 6(continue)------------------------------------------------------------------------------
+ LayerId    CropEn       X       Y   Width  Height
+
+-----CHN BASIC INFO ---------------------------------------------------------------
+ LayerId   ChnId ChnEn  Prio DeFlk  ChnX  ChnY  ChnW  ChnH DispX DispY bSnap Field RotAngle
+
+-----CHN PLAY INFO 1---------------------------------------------------------------------------------------------------------------------
+ LayerId   ChnId   Batch  Show Pause  Step Revrs Refsh Thrshd ChnFrt   ChnGap
+
+-----CHN PLAY INFO 2(continue)-----------------------------------------------------------------------------------------------------------
+ LayerId   ChnId           DisplayPts               PrePts              CurrPts             ScalePts               SetPts           RecvCurPts
+
+-----BySingle CHN STATUS 1----------------------------------------------------------------------------------------------------------------
+ LayerId   ChnId   Job     Task QueryLCnt SendLCnt     QCnt     SCnt    ChRpt     DRpt ShouD Dsped b2Scl      ChnAddr     DispAddr
+
+-----BySingle CHN STATUS 2(continue)------------------------------------------------------------------------------------------------------
+ LayerId   ChnId bBorder BorderWidth   Color  ChnFreeNum  ChnBusyNum DispFreeNum DispBusyNum
+
+-----BySingle CHN STATUS 3(continue)--------------------------------------------------------
+ LayerId ChnId AspectRatioMode     X     Y     Width     Height     BgColor     CompressMode
+
+-----CHN OTHER INFO--------------------------------------------------------------
+ LayerId   ChnId   bZoom   ZmTyp   ZoomX   ZoomY   ZoomW   ZoomH    SrcW    SrcH
+
+
+-----GRAPHIC LAYER CSC PARAM-----------------------------
+ LAYERID  Matrix    Luma    Cont     Hue    Satu

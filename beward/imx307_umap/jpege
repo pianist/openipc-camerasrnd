@@ -1,0 +1,33 @@
+
+[JPEGE] Version: [Hi3516CV500_MPP_V2.0.1.1 B020 Release], Build Time[Mar  6 2019, 18:30:11]
+
+
+-----MODULE PARAM--------------------------------------------------------------
+        OnePack     JpegeMiniBufMode   JpegClearStreamBuf
+              0                    0                    1
+
+-----ATTRIBUTE1----------------------------------------------------------------
+ID    bMjpeg   PicType  MaxWidth   MaxHeight   Width  Height     BufSize   ByFrm     MCU   Qfactor   C2GEn   DcfEn
+2          N    YUV420      1280         720    1280     720     1843200       Y       0        90       N       N
+3          N    YUV420      1920        1080    1280     720     4147200       Y       0        90       N       N
+
+-----STATUS1-------------------------------------------------------------------
+ID	   BufLen	  FreeLen	  StrmCnt	  MaxStrm	
+ 2	  1843200	  1843136	        0	      200	
+ 3	  4149248	  4149184	        0	      200	
+
+-----STATUS2-------------------------------------------------------------------
+ID    PicRec    PicCoded    PicDroped    PicDisc    NoStmCnt    RcFail    PicRecode    UnrdStr      
+2     67        67          0            0          0           0         0            0            
+3     0         0           0            0          0           0         0            0            
+
+-----STREAM BUFFER-------------------------------------------------------------
+ID  Base                RdTail      RdHead      WrTail      WrHead      BufLen      DataLen     BufFree     
+2   0xcdb00000            0           0           0           0           1843200     0           1843136     
+3   0xd0800000            0           0           0           0           4149248     0           4149184     
+
+
+-----RUN INFO----------------------------------------------------------------
+ID    	   DCFSize	MpfExOffset	   SrcSize	  Mpf0Size	  Mpf1Size	    MpfCnt	  JpegQueueIdx	
+2     	         0	         0	         0	         0	         0	         0	             0	
+3     	         0	         0	         0	         0	         0	         0	             0	

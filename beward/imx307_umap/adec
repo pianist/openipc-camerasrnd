@@ -1,0 +1,6 @@
+
+[ADEC] Version: [Hi3516CV500_MPP_V2.0.1.1 B020 Release], Build Time[Mar  6 2019, 18:30:11]
+
+-----ADEC CHN ATTR--------------------------------------------------------------
+ChnId  PlType  ADPCMType BufSize        G726Rate    Mode OriSendCnt    SendCnt     GetCnt     PutCnt
+    0   g711u       NULL      20            NULL  stream          0          0          0          0

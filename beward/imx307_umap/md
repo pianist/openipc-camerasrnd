@@ -1,0 +1,7 @@
+
+[MD] Version: [Hi3516CV500_MPP_V2.0.1.1 B020 Release], Build Time[Mar  6 2019, 18:30:35]
+
+
+-------------------------------MD CHN ATTR---------------------------------------------------------------
+NO.    W    H   Alg   SadMode  SadOutCtrl        SadT   CclMode  CclInitT CclStep     XWt     YWt   FrmRate   CostTmPerFrm
+  0  720  576     0         0           4         200         0        16       4   32768   32768         0              0
