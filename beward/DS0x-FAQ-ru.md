@@ -123,6 +123,13 @@ setenv bootargs 'mem=64M console=ttyAMA0,115200 root=/dev/mtdblock1 rootfstype=j
 
 ## Снятые показатели ipctool <a name="ipctool"></a>
 
-- [`ipctool reginfo` на стоке для DS06](DS06-ipctool-reginfo.txt)
-- [`ipctool reginfo` на стоке для DS07](DS07-ipctool-reginfo.txt)
+`ipctool reginfo` на стоке:
+- [DS06](DS06-ipctool-reginfo.txt)
+- [DS07](DS07-ipctool-reginfo.txt)
+
+Регистры сенсора, со стока эталон:
+- [imx138 (DS05)]
+- [imx225 (DS06)](imx225_regs.txt)
+- [imx307 (DS07)]
+- [imx323 (DS07)]
 
